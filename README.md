@@ -1,7 +1,7 @@
 
 # 简洁的配置文件， 可定制性强
 
-![alt simpleconfig](./pictures/simpleconfig.png)
+![alt simpleconfig](https://github.com/lopengc/emacsconfig.git/image/simpleconfig.png)
 
 
 
@@ -15,7 +15,7 @@
 
 # 支持C/C++头文件补全
 
-![alt header](./pictures/headercompany.png)
+![alt header](.https://github.com/lopengc/emacsconfig.git/image/headercompany.png)
 
 
 
@@ -23,7 +23,7 @@
 
 ## 界面一览
 
-![alt codecompany](./pictures/codecompany.png)
+![alt codecompany](https://github.com/lopengc/emacsconfig.git/image/codecompany.png)
 
 
 
@@ -31,7 +31,7 @@
 
 - 在配置文件下，有custom文件夹. 该文件夹内定义了一些自定义一lisp代码。
 - 其中setup-clanguage.el是定义C/C++所有操作参数, 和按键绑定.
-- ![alt clang](./pictures/clang.png)
+- ![alt clang](https://github.com/lopengc/emacsconfig.git/image/clang.png)
 
 
 
