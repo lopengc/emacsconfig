@@ -1,7 +1,7 @@
 
 # 简洁的配置文件， 可定制性强
 
-![alt simpleconfig](image/simpleconfig.png)
+![simpleconfig](image/simpleconfig.png)
 
 
 
@@ -15,7 +15,7 @@
 
 # 支持C/C++头文件补全
 
-![alt header](image/headercompany.png)
+![header_company](image/headercompany.png)
 
 
 
@@ -23,7 +23,7 @@
 
 ## 界面一览
 
-![alt codecompany](image/codecompany.png)
+![code_company](image/codecompany.png)
 
 
 
@@ -31,7 +31,7 @@
 
 - 在配置文件下，有custom文件夹. 该文件夹内定义了一些自定义一lisp代码。
 - 其中setup-clanguage.el是定义C/C++所有操作参数, 和按键绑定.
-- ![alt clang](image/clang.png)
+- ![clang_configure](image/clang.png)
 
 
 
