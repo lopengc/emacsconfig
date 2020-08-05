@@ -1,0 +1,29 @@
+# -*- mode: snippet -*-
+# name: orgfun
+# key: orgfun
+# --
+#+TITLE:     $1
+#+AUTHOR:    jingpeng
+#+EMAIL:     (concat "fniessen" at-sign "pirilampo.org")
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en
+#+OPTIONS:   H:4 num:t toc:2
+
+#+SETUPFILE: ./bookORG.setup
+# See http://pandoc.org/README.html for another organization of the sections
+
+
+* Description
+  - $2
+    #+begin_src c
+    $3
+    #+end_src
+
+* Parameters
+
+* Return value
+
+* Notes
+
+* Example

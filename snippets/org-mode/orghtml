@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: orghtml
+# key: orghtml
+# --
+#+TITLE:     Name
+#+AUTHOR:    jingpeng
+#+EMAIL:     (concat "fniessen" at-sign "pirilampo.org")
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en
+#+OPTIONS:   H:4 num:t toc:2
+
+#+SETUPFILE: ./bookORG.setup
+# See http://pandoc.org/README.html for another organization of the sections
+
+

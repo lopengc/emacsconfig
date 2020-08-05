@@ -1,0 +1,67 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("time.h" include (:system-flag t) nil [40 57])
+            ("N" variable (:constant-flag t) nil [67 68])
+            ("main" function (:type "int") nil [74 882]))          
+      :file "time.c"
+      :pointmax 883
+      :fsize 882
+      :lastmodtime '(24355 65416 329421 51000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("N" . ((number "20" 80 . 82)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("string.h" include (:system-flag t) nil [20 39])
+            ("stdlib.h" include (:system-flag t) nil [40 59])
+            ("fun" function
+               (:pointer 1
+                :arguments 
+                  ( ("" variable (:type "char") (reparse-symbol arg-sub-list) [72 81])
+                    ("num" variable (:type "int") (reparse-symbol arg-sub-list) [87 95])
+                    ("max" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [96 106]))                  
+                :type "char")
+                nil [61 456])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [468 477])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [478 491]))                  
+                :type "int")
+                nil [459 968]))          
+      :file "hello.c"
+      :pointmax 969
+      :fsize 1000
+      :lastmodtime '(24357 21453 149498 624000)
+      :unmatched-syntax '((semantic-list 81 . 85) (semantic-list 77 . 81)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function (:type "int") nil [22 54]))          
+      :file "修罗铠甲.c"
+      :pointmax 55
+      :fsize 50
+      :lastmodtime '(24360 5914 834974 358000)
+      :unmatched-syntax nil))
+  :file "!home!jingpeng!source!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

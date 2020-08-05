@@ -1,0 +1,395 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("features.h" include (:system-flag t) nil [1433 1454])
+            ("__GLIBC_USE_LIB_EXT2" variable (:constant-flag t) nil [1672 1692])
+            ("__GLIBC_USE_IEC_60559_BFP_EXT" variable (:constant-flag t) nil [2097 2126])
+            ("__GLIBC_USE_IEC_60559_BFP_EXT_C2X" variable (:constant-flag t) nil [2344 2377])
+            ("__GLIBC_USE_IEC_60559_FUNCS_EXT" variable (:constant-flag t) nil [2694 2725])
+            ("__GLIBC_USE_IEC_60559_FUNCS_EXT_C2X" variable (:constant-flag t) nil [2951 2986])
+            ("__GLIBC_USE_IEC_60559_TYPES_EXT" variable (:constant-flag t) nil [3199 3230]))          
+      :file "libc-header-start.h"
+      :pointmax 3289
+      :fsize 3288
+      :lastmodtime '(24266 33000 0 0)
+      :unmatched-syntax '((close-paren 1661 . 1662) (semantic-list 1599 . 1661) (punctuation 1597 . 1598) (punctuation 1596 . 1597) (string 1316 . 1368) (symbol 1310 . 1315) (punctuation 1308 . 1309))
+      :lexical-table 
+        '(("__GLIBC_USE_IEC_60559_BFP_EXT_C2X" . ((number "0" 2378 . 2379)))
+          ("__GLIBC_USE_LIB_EXT2" . ((number "1" 1693 . 1694)))
+          ("__GLIBC_USE_IEC_60559_BFP_EXT" . ((number "1" 2127 . 2128)))
+          ("__GLIBC_USE_IEC_60559_FUNCS_EXT" . ((number "1" 2726 . 2727)))
+          ("__GLIBC_USE_IEC_60559_TYPES_EXT" . ((number "1" 3231 . 3232)))
+          ("__GLIBC_USE_IEC_60559_FUNCS_EXT_C2X" . ((number "0" 2987 . 2988)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("sys_nerr" variable
+               (:typemodifiers ("extern")
+                :type "int")
+                nil [1061 1081])
+            ("sys_errlist" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [1082 1121])
+            ("_sys_nerr" variable
+               (:typemodifiers ("extern")
+                :type "int")
+                nil [1147 1168])
+            ("_sys_errlist" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [1169 1209]))          
+      :file "sys_errlist.h"
+      :pointmax 1217
+      :fsize 1216
+      :lastmodtime '(24266 33000 0 0)
+      :unmatched-syntax '((string 892 . 961) (symbol 886 . 891) (punctuation 884 . 885)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_BITS_STDIO_LIM_H" variable (:constant-flag t) nil [825 842])
+            ("L_tmpnam" variable (:constant-flag t) nil [955 963])
+            ("TMP_MAX" variable (:constant-flag t) nil [975 982])
+            ("FILENAME_MAX" variable (:constant-flag t) nil [998 1010])
+            ("L_ctermid" variable (:constant-flag t) nil [1045 1054])
+            ("L_cuserid" variable (:constant-flag t) nil [1116 1125])
+            ("FOPEN_MAX" variable (:constant-flag t) nil [1170 1179]))          
+      :file "stdio_lim.h"
+      :pointmax 1214
+      :fsize 1213
+      :lastmodtime '(24266 33000 0 0)
+      :unmatched-syntax '((string 871 . 938) (symbol 865 . 870) (punctuation 863 . 864))
+      :lexical-table 
+        '(("FOPEN_MAX" . ((number "16" 1180 . 1182)))
+          ("_BITS_STDIO_LIM_H" . ((number "1" 843 . 844)))
+          ("L_cuserid" . ((number "9" 1126 . 1127)))
+          ("FILENAME_MAX" . ((number "4096" 1011 . 1015)))
+          ("TMP_MAX" . ((number "238328" 983 . 989)))
+          ("L_tmpnam" . ((number "20" 964 . 966)))
+          ("L_ctermid" . ((number "9" 1055 . 1056)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_BITS_TYPES_H" variable (:constant-flag t) nil [961 974])
+            ("features.h" include (:system-flag t) nil [978 999])
+            ("bits/wordsize.h" include (:system-flag t) nil [1000 1026])
+            ("bits/timesize.h" include (:system-flag t) nil [1027 1053])
+            ("__u_char" type
+               (:typedef ("unsigned char")
+                :type "typedef")
+                nil [1081 1112])
+            ("__u_short" type
+               (:typedef ("unsigned short int")
+                :type "typedef")
+                nil [1113 1150])
+            ("__u_int" type
+               (:typedef ("unsigned int")
+                :type "typedef")
+                nil [1151 1180])
+            ("__u_long" type
+               (:typedef ("unsigned long int")
+                :type "typedef")
+                nil [1181 1216])
+            ("__int8_t" type
+               (:typedef ("signed char")
+                :type "typedef")
+                nil [1294 1323])
+            ("__uint8_t" type
+               (:typedef ("unsigned char")
+                :type "typedef")
+                nil [1324 1356])
+            ("__int16_t" type
+               (:typedef ("signed short int")
+                :type "typedef")
+                nil [1357 1392])
+            ("__uint16_t" type
+               (:typedef ("unsigned short int")
+                :type "typedef")
+                nil [1393 1431])
+            ("__int32_t" type
+               (:typedef ("signed int")
+                :type "typedef")
+                nil [1432 1461])
+            ("__uint32_t" type
+               (:typedef ("unsigned int")
+                :type "typedef")
+                nil [1462 1494])
+            ("__int64_t" variable (:type "long int") nil [1629 1648])
+            ("__uint64_t" variable (:type "long int") nil [1685 1705])
+            ("__int_least8_t" type
+               (:typedef ("__int8_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [1765 1797])
+            ("__uint_least8_t" type
+               (:typedef ("__uint8_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [1798 1832])
+            ("__int_least16_t" type
+               (:typedef ("__int16_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [1833 1867])
+            ("__uint_least16_t" type
+               (:typedef ("__uint16_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [1868 1904])
+            ("__int_least32_t" type
+               (:typedef ("__int32_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [1905 1939])
+            ("__uint_least32_t" type
+               (:typedef ("__uint32_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [1940 1976])
+            ("__int_least64_t" type
+               (:typedef ("__int64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [1977 2011])
+            ("__uint_least64_t" type
+               (:typedef ("__uint64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [2012 2048])
+            ("__quad_t" variable (:type "long int") nil [2200 2218])
+            ("__u_quad_t" variable (:type "long int") nil [2255 2275])
+            ("__intmax_t" variable (:type "long int") nil [2437 2457])
+            ("__uintmax_t" variable (:type "long int") nil [2494 2515])
+            ("__S16_TYPE" variable (:constant-flag t) nil [4104 4114])
+            ("__U16_TYPE" variable (:constant-flag t) nil [4134 4144])
+            ("__S32_TYPE" variable (:constant-flag t) nil [4173 4183])
+            ("__U32_TYPE" variable (:constant-flag t) nil [4197 4207])
+            ("__SLONGWORD_TYPE" variable (:constant-flag t) nil [4230 4246])
+            ("__ULONGWORD_TYPE" variable (:constant-flag t) nil [4264 4280])
+            ("bits/typesizes.h" include (:system-flag t) nil [5158 5185])
+            ("bits/time64.h" include (:system-flag t) nil [5220 5244])
+            ("__dev_t" variable (:type ("__DEV_T_TYPE" type (:type "class") nil nil)) nil [5296 5317])
+            ("__uid_t" variable (:type ("__UID_T_TYPE" type (:type "class") nil nil)) nil [5360 5381])
+            ("__gid_t" variable (:type ("__GID_T_TYPE" type (:type "class") nil nil)) nil [5430 5451])
+            ("__ino_t" variable (:type ("__INO_T_TYPE" type (:type "class") nil nil)) nil [5501 5522])
+            ("__ino64_t" variable (:type ("__INO64_T_TYPE" type (:type "class") nil nil)) nil [5570 5595])
+            ("__mode_t" variable (:type ("__MODE_T_TYPE" type (:type "class") nil nil)) nil [5647 5670])
+            ("__nlink_t" variable (:type ("__NLINK_T_TYPE" type (:type "class") nil nil)) nil [5722 5747])
+            ("__off_t" variable (:type ("__OFF_T_TYPE" type (:type "class") nil nil)) nil [5792 5813])
+            ("__off64_t" variable (:type ("__OFF64_T_TYPE" type (:type "class") nil nil)) nil [5864 5889])
+            ("__pid_t" variable (:type ("__PID_T_TYPE" type (:type "class") nil nil)) nil [5946 5967])
+            ("__fsid_t" variable (:type ("__FSID_T_TYPE" type (:type "class") nil nil)) nil [6019 6042])
+            ("__clock_t" variable (:type ("__CLOCK_T_TYPE" type (:type "class") nil nil)) nil [6086 6111])
+            ("__rlim_t" variable (:type ("__RLIM_T_TYPE" type (:type "class") nil nil)) nil [6156 6179])
+            ("__rlim64_t" variable (:type ("__RLIM64_T_TYPE" type (:type "class") nil nil)) nil [6229 6256])
+            ("__id_t" variable (:type ("__ID_T_TYPE" type (:type "class") nil nil)) nil [6312 6331])
+            ("__time_t" variable (:type ("__TIME_T_TYPE" type (:type "class") nil nil)) nil [6373 6396])
+            ("__useconds_t" variable (:type ("__USECONDS_T_TYPE" type (:type "class") nil nil)) nil [6440 6471])
+            ("__suseconds_t" variable (:type ("__SUSECONDS_T_TYPE" type (:type "class") nil nil)) nil [6513 6546])
+            ("__daddr_t" variable (:type ("__DADDR_T_TYPE" type (:type "class") nil nil)) nil [6596 6621])
+            ("__key_t" variable (:type ("__KEY_T_TYPE" type (:type "class") nil nil)) nil [6668 6689])
+            ("__clockid_t" variable (:type ("__CLOCKID_T_TYPE" type (:type "class") nil nil)) nil [6780 6809])
+            ("__timer_t" variable (:type ("__TIMER_T_TYPE" type (:type "class") nil nil)) nil [6866 6891])
+            ("__blksize_t" variable (:type ("__BLKSIZE_T_TYPE" type (:type "class") nil nil)) nil [6941 6970])
+            ("__blkcnt_t" variable (:type ("__BLKCNT_T_TYPE" type (:type "class") nil nil)) nil [7080 7107])
+            ("__blkcnt64_t" variable (:type ("__BLKCNT64_T_TYPE" type (:type "class") nil nil)) nil [7119 7150])
+            ("__fsblkcnt_t" variable (:type ("__FSBLKCNT_T_TYPE" type (:type "class") nil nil)) nil [7204 7235])
+            ("__fsblkcnt64_t" variable (:type ("__FSBLKCNT64_T_TYPE" type (:type "class") nil nil)) nil [7247 7282])
+            ("__fsfilcnt_t" variable (:type ("__FSFILCNT_T_TYPE" type (:type "class") nil nil)) nil [7335 7366])
+            ("__fsfilcnt64_t" variable (:type ("__FSFILCNT64_T_TYPE" type (:type "class") nil nil)) nil [7378 7413])
+            ("__fsword_t" variable (:type ("__FSWORD_T_TYPE" type (:type "class") nil nil)) nil [7475 7502])
+            ("__ssize_t" variable (:type ("__SSIZE_T_TYPE" type (:type "class") nil nil)) nil [7515 7540])
+            ("__syscall_slong_t" variable (:type ("__SYSCALL_SLONG_TYPE" type (:type "class") nil nil)) nil [7638 7677])
+            ("__syscall_ulong_t" variable (:type ("__SYSCALL_ULONG_TYPE" type (:type "class") nil nil)) nil [7737 7776])
+            ("__loff_t" type
+               (:typedef ("__off64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [7885 7912])
+            ("__caddr_t" type
+               (:typedef ("char")
+                :pointer 1
+                :type "typedef")
+                nil [7958 7982])
+            ("__intptr_t" variable (:type ("__SWORD_TYPE" type (:type "class") nil nil)) nil [8062 8086])
+            ("__socklen_t" variable (:type "unsigned int") nil [8140 8163])
+            ("__sig_atomic_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [8353 8380])
+            ("__time64_t" variable (:type ("__TIME64_T_TYPE" type (:type "class") nil nil)) nil [8677 8704]))          
+      :file "types.h"
+      :pointmax 8758
+      :fsize 8757
+      :lastmodtime '(24266 33000 0 0)
+      :unmatched-syntax '((symbol 8666 . 8676) (symbol 8129 . 8139) (symbol 8051 . 8061) (symbol 7726 . 7736) (symbol 7627 . 7637) (symbol 7504 . 7514) (symbol 7464 . 7474) (symbol 7367 . 7377) (symbol 7324 . 7334) (symbol 7236 . 7246) (symbol 7193 . 7203) (symbol 7108 . 7118) (symbol 7069 . 7079) (symbol 6930 . 6940) (symbol 6855 . 6865) (symbol 6769 . 6779) (symbol 6657 . 6667) (symbol 6585 . 6595) (symbol 6502 . 6512) (symbol 6429 . 6439) (symbol 6362 . 6372) (symbol 6301 . 6311) (symbol 6218 . 6228) (symbol 6145 . 6155) (symbol 6075 . 6085) (symbol 6008 . 6018) (symbol 5935 . 5945) (symbol 5853 . 5863) (symbol 5781 . 5791) (symbol 5711 . 5721) (symbol 5636 . 5646) (symbol 5559 . 5569) (symbol 5490 . 5500) (symbol 5419 . 5429) (symbol 5349 . 5359) (symbol 5285 . 5295) (symbol 5145 . 5150) (punctuation 5143 . 5144) (LONG 2489 . 2493) (UNSIGNED 2480 . 2488) (TYPEDEF 2472 . 2479) (LONG 2432 . 2436) (TYPEDEF 2424 . 2431) (LONG 2250 . 2254) (UNSIGNED 2241 . 2249) (TYPEDEF 2233 . 2240) (LONG 2195 . 2199) (TYPEDEF 2187 . 2194) (LONG 1680 . 1684) (UNSIGNED 1671 . 1679) (TYPEDEF 1663 . 1670) (LONG 1624 . 1628) (SIGNED 1617 . 1623) (TYPEDEF 1609 . 1616))
+      :lexical-table 
+        '(("__U32_TYPE" . ((UNSIGNED "unsigned" 4209 . 4217) (INT "int" 4218 . 4221)))
+          ("__S16_TYPE" . ((SHORT "short" 4116 . 4121) (INT "int" 4122 . 4125)))
+          ("__ULONGWORD_TYPE" . 
+              ((UNSIGNED "unsigned" 4281 . 4289) (LONG "long" 4290 . 4294) (INT "int" 4295 . 4298)))
+          ("_BITS_TYPES_H" . ((number "1" 975 . 976)))
+          ("__S32_TYPE" . ((INT "int" 4185 . 4188)))
+          ("__U16_TYPE" . 
+              ((UNSIGNED "unsigned" 4146 . 4154) (SHORT "short" 4155 . 4160) (INT "int" 4161 . 4164)))
+          ("__SLONGWORD_TYPE" . ((LONG "long" 4247 . 4251) (INT "int" 4252 . 4255)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__WORDSIZE" variable (:constant-flag t) nil [117 127])
+            ("__WORDSIZE_TIME64_COMPAT32" variable (:constant-flag t) nil [266 292])
+            ("__SYSCALL_WORDSIZE" variable (:constant-flag t) nil [369 387]))          
+      :file "wordsize.h"
+      :pointmax 443
+      :fsize 442
+      :lastmodtime '(24266 33000 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__WORDSIZE_TIME64_COMPAT32" . ((number "1" 293 . 294)))
+          ("__SYSCALL_WORDSIZE" . ((number "64" 389 . 391)))
+          ("__WORDSIZE" . ((number "64" 128 . 130)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__TIMESIZE" variable (:constant-flag t) nil [1053 1063]))          
+      :file "timesize.h"
+      :pointmax 1082
+      :fsize 1081
+      :lastmodtime '(24266 33000 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__TIMESIZE" . ((symbol "__WORDSIZE" 1064 . 1074)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_BITS_TYPESIZES_H" variable (:constant-flag t) nil [1007 1024])
+            ("__SYSCALL_SLONG_TYPE" variable (:constant-flag t) nil [1362 1382])
+            ("__SYSCALL_ULONG_TYPE" variable (:constant-flag t) nil [1409 1429])
+            ("__DEV_T_TYPE" variable (:constant-flag t) nil [1463 1475])
+            ("__UID_T_TYPE" variable (:constant-flag t) nil [1498 1510])
+            ("__GID_T_TYPE" variable (:constant-flag t) nil [1531 1543])
+            ("__INO_T_TYPE" variable (:constant-flag t) nil [1564 1576])
+            ("__INO64_T_TYPE" variable (:constant-flag t) nil [1607 1621])
+            ("__MODE_T_TYPE" variable (:constant-flag t) nil [1644 1657])
+            ("__NLINK_T_TYPE" variable (:constant-flag t) nil [1697 1711])
+            ("__FSWORD_T_TYPE" variable (:constant-flag t) nil [1743 1758])
+            ("__OFF_T_TYPE" variable (:constant-flag t) nil [1877 1889])
+            ("__OFF64_T_TYPE" variable (:constant-flag t) nil [1920 1934])
+            ("__PID_T_TYPE" variable (:constant-flag t) nil [1957 1969])
+            ("__RLIM_T_TYPE" variable (:constant-flag t) nil [1990 2003])
+            ("__RLIM64_T_TYPE" variable (:constant-flag t) nil [2034 2049])
+            ("__BLKCNT_T_TYPE" variable (:constant-flag t) nil [2072 2087])
+            ("__BLKCNT64_T_TYPE" variable (:constant-flag t) nil [2118 2135])
+            ("__FSBLKCNT_T_TYPE" variable (:constant-flag t) nil [2157 2174])
+            ("__FSBLKCNT64_T_TYPE" variable (:constant-flag t) nil [2204 2223])
+            ("__FSFILCNT_T_TYPE" variable (:constant-flag t) nil [2245 2262])
+            ("__FSFILCNT64_T_TYPE" variable (:constant-flag t) nil [2292 2311])
+            ("__ID_T_TYPE" variable (:constant-flag t) nil [2333 2344])
+            ("__CLOCK_T_TYPE" variable (:constant-flag t) nil [2365 2379])
+            ("__TIME_T_TYPE" variable (:constant-flag t) nil [2410 2423])
+            ("__USECONDS_T_TYPE" variable (:constant-flag t) nil [2454 2471])
+            ("__SUSECONDS_T_TYPE" variable (:constant-flag t) nil [2491 2509])
+            ("__DADDR_T_TYPE" variable (:constant-flag t) nil [2539 2553])
+            ("__KEY_T_TYPE" variable (:constant-flag t) nil [2574 2586])
+            ("__CLOCKID_T_TYPE" variable (:constant-flag t) nil [2607 2623])
+            ("__TIMER_T_TYPE" variable (:constant-flag t) nil [2643 2657])
+            ("__BLKSIZE_T_TYPE" variable (:constant-flag t) nil [2674 2690])
+            ("__FSID_T_TYPE" variable (:constant-flag t) nil [2720 2733])
+            ("__SSIZE_T_TYPE" variable (:constant-flag t) nil [2768 2782])
+            ("__CPU_MASK_TYPE" variable (:constant-flag t) nil [2805 2820])
+            ("__OFF_T_MATCHES_OFF64_T" variable (:constant-flag t) nil [3056 3079])
+            ("__INO_T_MATCHES_INO64_T" variable (:constant-flag t) nil [3127 3150])
+            ("__RLIM_T_MATCHES_RLIM64_T" variable (:constant-flag t) nil [3203 3228])
+            ("__STATFS_MATCHES_STATFS64" variable (:constant-flag t) nil [3311 3336])
+            ("__FD_SETSIZE" variable (:constant-flag t) nil [3496 3508]))          
+      :file "typesizes.h"
+      :pointmax 3547
+      :fsize 3546
+      :lastmodtime '(24266 33000 0 0)
+      :unmatched-syntax '((string 893 . 964) (symbol 887 . 892) (punctuation 885 . 886))
+      :lexical-table 
+        '(("__RLIM64_T_TYPE" . ((symbol "__UQUAD_TYPE" 2051 . 2063)))
+          ("__KEY_T_TYPE" . ((symbol "__S32_TYPE" 2588 . 2598)))
+          ("__OFF64_T_TYPE" . ((symbol "__SQUAD_TYPE" 1936 . 1948)))
+          ("__FSBLKCNT_T_TYPE" . ((symbol "__SYSCALL_ULONG_TYPE" 2175 . 2195)))
+          ("__USECONDS_T_TYPE" . ((symbol "__U32_TYPE" 2472 . 2482)))
+          ("__TIMER_T_TYPE" . ((VOID "void" 2659 . 2663) (punctuation "*" 2664 . 2665)))
+          ("__FSID_T_TYPE" . ((STRUCT "struct" 2735 . 2741) (semantic-list "{ int __val[2]; }" 2742 . 2759)))
+          ("__RLIM_T_MATCHES_RLIM64_T" . ((number "1" 3229 . 3230)))
+          ("__MODE_T_TYPE" . ((symbol "__U32_TYPE" 1659 . 1669)))
+          ("__BLKCNT64_T_TYPE" . ((symbol "__SQUAD_TYPE" 2136 . 2148)))
+          ("__FSBLKCNT64_T_TYPE" . ((symbol "__UQUAD_TYPE" 2224 . 2236)))
+          ("__CLOCK_T_TYPE" . ((symbol "__SYSCALL_SLONG_TYPE" 2381 . 2401)))
+          ("__SUSECONDS_T_TYPE" . ((symbol "__SYSCALL_SLONG_TYPE" 2510 . 2530)))
+          ("__INO_T_MATCHES_INO64_T" . ((number "1" 3151 . 3152)))
+          ("_BITS_TYPESIZES_H" . ((number "1" 1025 . 1026)))
+          ("__PID_T_TYPE" . ((symbol "__S32_TYPE" 1971 . 1981)))
+          ("__FSFILCNT64_T_TYPE" . ((symbol "__UQUAD_TYPE" 2312 . 2324)))
+          ("__FSWORD_T_TYPE" . ((symbol "__SYSCALL_SLONG_TYPE" 1759 . 1779)))
+          ("__RLIM_T_TYPE" . ((symbol "__SYSCALL_ULONG_TYPE" 2005 . 2025)))
+          ("__BLKSIZE_T_TYPE" . ((symbol "__SYSCALL_SLONG_TYPE" 2691 . 2711)))
+          ("__INO64_T_TYPE" . ((symbol "__UQUAD_TYPE" 1623 . 1635)))
+          ("__BLKCNT_T_TYPE" . ((symbol "__SYSCALL_SLONG_TYPE" 2089 . 2109)))
+          ("__FSFILCNT_T_TYPE" . ((symbol "__SYSCALL_ULONG_TYPE" 2263 . 2283)))
+          ("__TIME_T_TYPE" . ((symbol "__SYSCALL_SLONG_TYPE" 2425 . 2445)))
+          ("__CPU_MASK_TYPE" . ((symbol "__SYSCALL_ULONG_TYPE" 2822 . 2842)))
+          ("__STATFS_MATCHES_STATFS64" . ((number "1" 3338 . 3339)))
+          ("__SYSCALL_SLONG_TYPE" . ((symbol "__SLONGWORD_TYPE" 1383 . 1399)))
+          ("__GID_T_TYPE" . ((symbol "__U32_TYPE" 1545 . 1555)))
+          ("__OFF_T_TYPE" . ((symbol "__SYSCALL_SLONG_TYPE" 1891 . 1911)))
+          ("__OFF_T_MATCHES_OFF64_T" . ((number "1" 3080 . 3081)))
+          ("__FD_SETSIZE" . ((number "1024" 3510 . 3514)))
+          ("__UID_T_TYPE" . ((symbol "__U32_TYPE" 1512 . 1522)))
+          ("__ID_T_TYPE" . ((symbol "__U32_TYPE" 2346 . 2356)))
+          ("__SYSCALL_ULONG_TYPE" . ((symbol "__ULONGWORD_TYPE" 1430 . 1446)))
+          ("__DEV_T_TYPE" . ((symbol "__UQUAD_TYPE" 1477 . 1489)))
+          ("__INO_T_TYPE" . ((symbol "__SYSCALL_ULONG_TYPE" 1578 . 1598)))
+          ("__DADDR_T_TYPE" . ((symbol "__S32_TYPE" 2555 . 2565)))
+          ("__CLOCKID_T_TYPE" . ((symbol "__S32_TYPE" 2624 . 2634)))
+          ("__NLINK_T_TYPE" . ((symbol "__SYSCALL_ULONG_TYPE" 1713 . 1733)))
+          ("__SSIZE_T_TYPE" . ((symbol "__SWORD_TYPE" 2784 . 2796)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_BITS_TIME64_H" variable (:constant-flag t) nil [1000 1014])
+            ("__TIME64_T_TYPE" variable (:constant-flag t) nil [1276 1291]))          
+      :file "time64.h"
+      :pointmax 1341
+      :fsize 1340
+      :lastmodtime '(24266 33000 0 0)
+      :unmatched-syntax '((string 892 . 960) (symbol 886 . 891) (punctuation 884 . 885))
+      :lexical-table 
+        '(("__TIME64_T_TYPE" . ((symbol "__SQUAD_TYPE" 1293 . 1305)))
+          ("_BITS_TIME64_H" . ((number "1" 1015 . 1016)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__LONG_DOUBLE_USES_FLOAT128" variable (:constant-flag t) nil [933 960]))          
+      :file "long-double.h"
+      :pointmax 963
+      :fsize 962
+      :lastmodtime '(24266 33000 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__LONG_DOUBLE_USES_FLOAT128" . ((number "0" 961 . 962)))
+          )
+))
+  :file "!usr!include!bits!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
