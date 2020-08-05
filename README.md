@@ -1,7 +1,7 @@
 
 # 简洁的配置文件， 可定制性强
 
-![alt simpleconfig](https://github.com/lopengc/emacsconfig.git/image/simpleconfig.png)
+![alt simpleconfig](image/simpleconfig.png)
 
 
 
