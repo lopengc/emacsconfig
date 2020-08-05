@@ -1,0 +1,58 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("gtk/gtk.h" include (:system-flag t) nil [20 40])
+            ("s" variable
+               (:pointer 1
+                :default-value "\"xiuluo\""
+                :type "char")
+                nil [42 61])
+            ("s2" variable
+               (:pointer 1
+                :default-value "\"xiuluo2\""
+                :type "char")
+                nil [62 83])
+            ("print_hello" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("widget" variable
+                       (:pointer 1
+                        :type ("GtkWidget" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [109 127])
+                    ("data" variable (:type ("gpointer" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [128 142]))                  
+                :type "void")
+                nil [85 196])
+            ("activate" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("app" variable
+                       (:pointer 1
+                        :type ("GtkApplication" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [220 241])
+                    ("user_data" variable (:type ("gpointer" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [242 261]))                  
+                :type "void")
+                nil [199 1792])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1804 1813])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1814 1827]))                  
+                :type "int")
+                nil [1795 2235]))          
+      :file "createwindow.c"
+      :pointmax 2236
+      :fsize 2303
+      :lastmodtime '(24362 16786 156373 553000)
+      :unmatched-syntax nil))
+  :file "!home!jingpeng!source!GTK!01_GtkPacking!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
