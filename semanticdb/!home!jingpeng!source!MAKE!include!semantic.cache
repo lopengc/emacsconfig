@@ -1,0 +1,49 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__HEAD_H_" variable (:constant-flag t) nil [27 36])
+            ("add" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [45 51])
+                    ("b" variable (:type "int") (reparse-symbol arg-sub-list) [52 58]))                  
+                :type "int")
+                nil [37 59])
+            ("sub" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [68 74])
+                    ("b" variable (:type "int") (reparse-symbol arg-sub-list) [75 81]))                  
+                :type "int")
+                nil [60 82])
+            ("mul" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [91 97])
+                    ("b" variable (:type "int") (reparse-symbol arg-sub-list) [98 104]))                  
+                :type "int")
+                nil [83 105])
+            ("div" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [114 120])
+                    ("b" variable (:type "int") (reparse-symbol arg-sub-list) [121 127]))                  
+                :type "int")
+                nil [106 128]))          
+      :file "head.h"
+      :pointmax 136
+      :fsize 135
+      :lastmodtime '(23086 9366 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__HEAD_H_")
+          )
+))
+  :file "!home!jingpeng!source!MAKE!include!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

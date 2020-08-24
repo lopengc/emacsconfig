@@ -14,7 +14,7 @@
       :file "time.c"
       :pointmax 883
       :fsize 882
-      :lastmodtime '(24355 65416 329421 51000)
+      :lastmodtime '(24362 17938 416368 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("N" . ((number "20" 80 . 82)))
@@ -50,18 +50,35 @@
       :file "hello.c"
       :pointmax 969
       :fsize 1000
-      :lastmodtime '(24357 21453 149498 624000)
+      :lastmodtime '(24357 21453 149498 0)
       :unmatched-syntax '((semantic-list 81 . 85) (semantic-list 77 . 81)))
     (semanticdb-table "semanticdb-table"
       :major-mode c-mode
       :tags 
         '( ("stdio.h" include (:system-flag t) nil [1 19])
-            ("main" function (:type "int") nil [22 54]))          
-      :file "修罗铠甲.c"
-      :pointmax 55
-      :fsize 50
-      :lastmodtime '(24360 5914 834974 358000)
-      :unmatched-syntax nil))
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [31 40])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [41 54]))                  
+                :type "int")
+                nil [22 141]))          
+      :file "hellogdb.c"
+      :pointmax 142
+      :fsize 141
+      :lastmodtime '(24367 53113 297516 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags nil
+      :file "test.c"
+      :pointmax 18
+      :fsize 17
+      :lastmodtime '(24383 6412 91864 173000)
+      :unmatched-syntax '((symbol 11 . 17) (charquote 10 . 11) (symbol 5 . 10) (charquote 4 . 5) (symbol 1 . 4))))
   :file "!home!jingpeng!source!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")

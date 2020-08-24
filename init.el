@@ -20,9 +20,19 @@
 
 
 ;; =========================================
-;; My lisp Function
+;; Customized lisp Functions and key bind
 ;; =========================================
+
 (require 'init-fun)
+
+(require 'insert-translated-name)
+(require 'company-english-helper)
+(require 'setup-youdao-dictionary)
+
+(global-set-key (kbd "C-c f") 'insert-translated-name-insert-original-translation)
+
+(global-set-key (kbd "C-c e") 'toggle-company-english-helper)
+
 
 
 ;; =========================================
@@ -42,10 +52,10 @@
 (require 'setup-js2mode)
 
 
+
 ;; =========================================
 ;; Emacs Lisp test code
 ;; =========================================
-
 
 
 
@@ -59,7 +69,7 @@
     ("fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" default)))
  '(package-selected-packages
    (quote
-    (js2-mode hungry-delete anzu ws-butler dtrt-indent clean-aindent-mode undo-tree volatile-highlights ggtags zygospore projectile yasnippet spacemacs-theme use-package))))
+    (youdao-dictionary js2-mode hungry-delete anzu ws-butler dtrt-indent clean-aindent-mode undo-tree volatile-highlights ggtags zygospore projectile yasnippet spacemacs-theme use-package))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
